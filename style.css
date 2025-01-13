@@ -1,0 +1,31 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    color: #692737;
+}
+.hero {
+    background: url(download\ \(6\).jpg);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #717171;
+    text-shadow: 0 2px 10px rgb(20, 24, 26);
+}
+.hero h1 {
+    font-size: 4.5rem;
+    margin-bottom: 20px;
+}
+.product-card {
+    box-shadow: 0 4px 10px #aa355a;
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+.product-card:hover {
+    transform: scale(1.05);
+}
+footer {
+    background-color: #fadee7;
+    color: rgb(103, 29, 29);
+    padding: 20px 0;
+}
